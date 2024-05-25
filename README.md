@@ -72,7 +72,7 @@ House_Price_Prediction/
 │   └── prediction.html
 │
 
-├── house price prediction
+├── house price prediction.ipynb
 ├── app.py
 ├── Housing.csv
 ├── model.pkl
@@ -81,7 +81,7 @@ House_Price_Prediction/
 
 
 ## Files
-house price prediction: Python script for data preprocessing, model training, and saving.
+house price prediction.ipynb: Python script for data preprocessing, model training, and saving.
 Housing.csv: Dataset containing housing data.
 model.pkl: Pickled file containing the trained model.
 scaler.pkl: Pickled file containing the scaler used for feature scaling.
@@ -102,4 +102,3 @@ Fork the repository.
 Create a new branch for your changes.
 Commit your changes and push to your branch.
 Submit a pull request.
-
