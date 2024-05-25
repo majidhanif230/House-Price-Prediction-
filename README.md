@@ -58,14 +58,17 @@ python model.py
 
 House_Price_Prediction/
 │
+
 ├── static/
 │   ├── style.css
 │   └── background.jpg
 │
+
 ├── templates/
 │   ├── index.html
 │   └── prediction.html
 │
+
 ├── model.py
 ├── app.py
 ├── Housing.csv
