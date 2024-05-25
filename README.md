@@ -25,6 +25,9 @@ The housing market is a critical aspect of the economy, and accurately predictin
 ### Area Population
 - Description: Population of the area.
 
+## Accuracy
+89%
+
 ## Getting Started
 
 ### Prerequisites
@@ -69,7 +72,7 @@ House_Price_Prediction/
 │   └── prediction.html
 │
 
-├── model.py
+├── house price prediction
 ├── app.py
 ├── Housing.csv
 ├── model.pkl
@@ -78,7 +81,7 @@ House_Price_Prediction/
 
 
 ## Files
-house price LR Model: Python script for data preprocessing, model training, and saving.
+house price prediction: Python script for data preprocessing, model training, and saving.
 Housing.csv: Dataset containing housing data.
 model.pkl: Pickled file containing the trained model.
 scaler.pkl: Pickled file containing the scaler used for feature scaling.
