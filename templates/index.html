@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <form id="prediction-form" action="/predict" method="post">
+            <h3>Welcome to the House Price Prediction System</h3>
+            <label for="Avg_Area_Income">Average Area Income:</label>
+            <input type="text" name="Avg_Area_Income" required><br><br>
+            <label for="Avg_Area_House_Age">Average Area House Age:</label>
+            <input type="text" name="Avg_Area_House_Age" required><br><br>
+            <label for="Avg_Area_Number_of_Rooms">Average Area Number of Rooms:</label>
+            <input type="text" name="Avg_Area_Number_of_Rooms" required><br><br>
+            <label for="Avg_Area_Number_of_Bedrooms">Average Area Number of Bedrooms:</label>
+            <input type="text" name="Avg_Area_Number_of_Bedrooms" required><br><br>
+            <label for="Area_Population">Area Population:</label>
+            <input type="text" name="Area_Population" required><br><br>
+            <input type="submit" value="Predict">
+        </form>
+    </div>
+
+    <script>
+        // Optionally, you can remove the JavaScript function if it's not needed anymore.
+    </script>
+</body>
+</html>

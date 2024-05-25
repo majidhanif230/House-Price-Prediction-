@@ -1,0 +1,94 @@
+/* Styles for index.html */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Set height to full viewport height */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Styles for prediction.html */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center content vertically */
+}
+
+form {
+    width: 50%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+label {
+    color: white; /* Label text color */
+}
+
+input[type="text"] {
+    color: black; /* Input text color */
+    background-color: #fff; /* Input background color */
+    border: 1px solid #ccc; /* Input border color */
+    padding: 8px; /* Input padding */
+    border-radius: 5px; /* Input border radius */
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Shared styles */
+.prediction-box {
+   width: 60%;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    color: white;
+}
+h2 {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+a {
+    font-size: 32px;
+    display: block; /* Change to block to center horizontally */
+    text-align: center; /* Center text horizontally */
+    color: white;
+}
